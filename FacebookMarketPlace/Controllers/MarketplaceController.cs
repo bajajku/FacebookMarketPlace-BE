@@ -13,16 +13,15 @@ public class MarketplaceController : ControllerBase
             new MarketplaceItem
             {
                 Id = 1,
-                Title = "iPhone 13 Pro",
+                Title = "MacBookAir",
                 Description = "Excellent condition, 256GB, Pacific Blue",
-                Price = 799.99m,
+                Price = 1199.99m,
                 Category = "Electronics",
                 Condition = "Used - Excellent",
                 Location = "Seattle, WA",
                 Images = new List<string> 
                 { 
-                    "https://example.com/iphone13-1.jpg",
-                    "https://example.com/iphone13-2.jpg" 
+                    "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU" 
                 },
                 DatePosted = DateTime.Now.AddDays(-5),
                 SellerId = "user123"
@@ -30,16 +29,15 @@ public class MarketplaceController : ControllerBase
             new MarketplaceItem
             {
                 Id = 2,
-                Title = "Leather Sofa",
-                Description = "Brown leather sofa, barely used, no scratches",
+                Title = "Camera",
+                Description = "Barely used, good condition",
                 Price = 599.99m,
-                Category = "Furniture",
+                Category = "Electronics",
                 Condition = "Like New",
                 Location = "Portland, OR",
                 Images = new List<string> 
                 { 
-                    "https://example.com/sofa-1.jpg",
-                    "https://example.com/sofa-2.jpg" 
+                    "https://fastly.picsum.photos/id/250/4928/3264.jpg?hmac=4oIwzXlpK4KU3wySTnATICCa4H6xwbSGifrxv7GafWU"
                 },
                 DatePosted = DateTime.Now.AddDays(-2),
                 SellerId = "user456"
@@ -47,17 +45,15 @@ public class MarketplaceController : ControllerBase
             new MarketplaceItem
             {
                 Id = 3,
-                Title = "Mountain Bike",
-                Description = "Trek Marlin 7, 2022 model, perfect for trails",
-                Price = 450.00m,
-                Category = "Sports",
+                Title = "Heals",
+                Description = "High heals in good condition",
+                Price = 50.00m,
+                Category = "Footwear",
                 Condition = "Used - Good",
                 Location = "Denver, CO",
                 Images = new List<string> 
                 { 
-                    "https://example.com/bike-1.jpg",
-                    "https://example.com/bike-2.jpg" 
-                },
+                    "https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4"                },
                 DatePosted = DateTime.Now.AddDays(-1),
                 SellerId = "user789"
             }
